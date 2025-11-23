@@ -1,5 +1,6 @@
 package dev.mikeya.barracudahelper;
 
+import com.google.gson.Gson;
 import com.google.inject.Provides;
 import javax.inject.Inject;
 
@@ -43,6 +44,9 @@ public class BarracudaHelperPlugin extends Plugin
 
 	@Inject
 	private OverlayManager overlayManager;
+
+	@Inject
+	public Gson gson;
 
 	@Inject
 	public ClientThread clientThread;

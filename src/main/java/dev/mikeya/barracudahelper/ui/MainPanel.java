@@ -9,8 +9,6 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import static dev.mikeya.barracudahelper.Routes.GSON;
-
 public class MainPanel extends JPanel
 {
     private final BarracudaHelperPluginPanel parent;
@@ -55,7 +53,7 @@ public class MainPanel extends JPanel
                 if (stream != null)
                 {
                     String json = new String(stream.readAllBytes());
-                    newTrial = GSON.fromJson(json, Trial.class);
+                    newTrial = parent.plugin.gson.fromJson(json, Trial.class);
                 }
             }
             catch (Exception ee)

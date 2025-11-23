@@ -9,13 +9,14 @@ import java.util.ArrayList;
 
 public class Routes {
     public static final ArrayList<Trial> TRIALS = new ArrayList<>();
-    public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static ConfigManager configManager = null;
+    private static BarracudaHelperPlugin plugin = null;
 
     @Inject
-    public Routes(ConfigManager cm)
+    public Routes(ConfigManager cm, BarracudaHelperPlugin plugin)
     {
         this.configManager = cm;
+        this.plugin = plugin;
 
         String[] names = {
                 "Tempor unranked",
@@ -43,7 +44,7 @@ public class Routes {
             {
                 try
                 {
-                    trial = GSON.fromJson(json, Trial.class);
+                    trial = plugin.gson.fromJson(json, Trial.class);
                 }
                 catch (Exception e)
                 {
@@ -61,7 +62,7 @@ public class Routes {
 
     public static void saveTrial(Trial trial)
     {
-        String json = GSON.toJson(trial);
+        String json = plugin.gson.toJson(trial);
         configManager.setConfiguration("barracudahelper", trial.trialName, json);
     }
 
@@ -72,7 +73,7 @@ public class Routes {
             if (stream != null)
             {
                 String json = new String(stream.readAllBytes());
-                return GSON.fromJson(json, Trial.class);
+                return plugin.gson.fromJson(json, Trial.class);
             }
         }
         catch (Exception e)

@@ -258,7 +258,7 @@ public class EditorPanel extends JPanel
 
     private void exportMarkers()
     {
-        String json = Routes.GSON.toJson(trial);
+        String json = parent.plugin.gson.toJson(trial);
 
         StringSelection selection = new StringSelection(json);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, selection);
@@ -273,7 +273,7 @@ public class EditorPanel extends JPanel
                     .getSystemClipboard()
                     .getData(java.awt.datatransfer.DataFlavor.stringFlavor);
 
-            Trial importedTrial = Routes.GSON.fromJson(clipboard, Trial.class);
+            Trial importedTrial = parent.plugin.gson.fromJson(clipboard, Trial.class);
             if (importedTrial == null) {
                 Toolkit.getDefaultToolkit().beep();
                 JOptionPane.showMessageDialog(this, "No valid markers found in clipboard.", "Import Failed", JOptionPane.ERROR_MESSAGE);
