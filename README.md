@@ -6,7 +6,7 @@ You can use the editor to make your own routes and share them through the import
 
 # GIFs
 Running the trial with the plugin enabled with the default Marlin route
-![Marlin](https://github.com/DeveloperMikey/barracuda-helper/blob/09bb98682522c1cbf2c7640c9b3cb08c2f139e37/sailing.gif)
+![Marlin](https://github.com/DeveloperMikey/barracuda-helper/blob/e97340b394a6460d14e0ec2fc278fca4ddd57f5a/sailing.gif)
 
 Editing a route
-![Editing](https://github.com/DeveloperMikey/barracuda-helper/blob/09bb98682522c1cbf2c7640c9b3cb08c2f139e37/editing.gif)
+![Editing](https://github.com/DeveloperMikey/barracuda-helper/blob/e97340b394a6460d14e0ec2fc278fca4ddd57f5a/editing.gif)
