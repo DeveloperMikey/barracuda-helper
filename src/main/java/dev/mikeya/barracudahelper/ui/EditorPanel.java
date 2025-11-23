@@ -3,15 +3,12 @@ package dev.mikeya.barracudahelper.ui;
 import dev.mikeya.barracudahelper.PathMarker;
 import dev.mikeya.barracudahelper.Routes;
 import dev.mikeya.barracudahelper.Trial;
-import net.runelite.api.coords.WorldPoint;
 import net.runelite.client.ui.ColorScheme;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class EditorPanel extends JPanel
 {
@@ -124,6 +121,10 @@ public class EditorPanel extends JPanel
         for (PathMarker m : trial.markers)
             markerListModel.addElement(m);
         Routes.saveTrial(trial);
+    }
+
+    public PathMarker getSelectedMarker() {
+        return markerList.getSelectedValue();
     }
 
     private class MarkerCellRenderer implements ListCellRenderer<PathMarker>

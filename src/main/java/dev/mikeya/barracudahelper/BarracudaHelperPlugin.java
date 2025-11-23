@@ -3,7 +3,6 @@ package dev.mikeya.barracudahelper;
 import com.google.inject.Provides;
 import javax.inject.Inject;
 
-import dev.mikeya.barracudahelper.enums.Paths;
 import dev.mikeya.barracudahelper.ui.BarracudaHelperPluginPanel;
 import dev.mikeya.barracudahelper.ui.EditorPanel;
 import lombok.extern.slf4j.Slf4j;

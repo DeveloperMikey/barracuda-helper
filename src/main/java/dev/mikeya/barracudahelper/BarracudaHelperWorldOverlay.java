@@ -1,5 +1,6 @@
 package dev.mikeya.barracudahelper;
 
+import dev.mikeya.barracudahelper.ui.EditorPanel;
 import net.runelite.api.Client;
 import net.runelite.api.Perspective;
 import net.runelite.api.Point;
@@ -58,11 +59,13 @@ public class BarracudaHelperWorldOverlay extends Overlay {
                 drawTile(graphics, wp, color);
             }
 
-            /*PathMarker selected = plugin.pluginPanel.getSelectedMarker();
-            if (selected != null) {
-                WorldPoint wp = selected.getLocation();
-                drawTile(graphics, wp, Color.RED);
-            }*/
+            if (plugin.pluginPanel.currentPanel instanceof EditorPanel) {
+                PathMarker selected = ((EditorPanel) plugin.pluginPanel.currentPanel).getSelectedMarker();
+                if (selected != null) {
+                    WorldPoint wp = selected.getLocation();
+                    drawTile(graphics, wp, Color.RED);
+                }
+            }
         }
         else
         {
