@@ -1,0 +1,270 @@
+{
+  "routeName": "Default",
+  "trialName": "Tempor swordfish",
+  "markers": [
+    {
+      "location": {
+        "x": 3036,
+        "y": 2920,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3033,
+        "y": 2917,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3000,
+        "y": 2904,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 2995,
+        "y": 2892,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 2992,
+        "y": 2882,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 2979,
+        "y": 2865,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 2979,
+        "y": 2856,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 2980,
+        "y": 2848,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 2981,
+        "y": 2839,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 2980,
+        "y": 2828,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 2986,
+        "y": 2817,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 2991,
+        "y": 2810,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3001,
+        "y": 2808,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3002,
+        "y": 2787,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3002,
+        "y": 2781,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3004,
+        "y": 2770,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3013,
+        "y": 2767,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3021,
+        "y": 2764,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3037,
+        "y": 2760,
+        "plane": 0
+      },
+      "type": "RUM"
+    },
+    {
+      "location": {
+        "x": 3047,
+        "y": 2775,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3056,
+        "y": 2792,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3066,
+        "y": 2810,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3069,
+        "y": 2815,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3074,
+        "y": 2825,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3080,
+        "y": 2863,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3080,
+        "y": 2875,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3078,
+        "y": 2883,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3081,
+        "y": 2896,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3080,
+        "y": 2902,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3071,
+        "y": 2915,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3058,
+        "y": 2920,
+        "plane": 0
+      },
+      "type": "PATH"
+    },
+    {
+      "location": {
+        "x": 3053,
+        "y": 2920,
+        "plane": 0
+      },
+      "type": "CRATE"
+    },
+    {
+      "location": {
+        "x": 3036,
+        "y": 2920,
+        "plane": 0
+      },
+      "type": "RUM"
+    }
+  ]
+}
